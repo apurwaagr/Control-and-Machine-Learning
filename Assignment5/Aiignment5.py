@@ -18,7 +18,7 @@ y_train = np.array([[1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [0, 1], [0, 1], [0, 
 # Step 3: Define the optimization algorithms and parameters
 optimizers = {
     'SGD': {'optimizer': tf.keras.optimizers.SGD, 'learning_rate': 0.05, 'momentum': 0.5},
-    'Adagrad': {'optimizer': tf.keras.optimizers.Adagrad, 'learning_rate': 0.1, 'epsilon': 1e-8},
+    'Adagrad': {'optimizer': tf.keras.optimizers.Adagrad, 'learning_rate': 0.2, 'epsilon': 1e-8},
     'RMSprop': {'optimizer': tf.keras.optimizers.RMSprop, 'learning_rate': 0.005, 'epsilon': 1e-8},
     'Adam': {'optimizer': tf.keras.optimizers.Adam, 'learning_rate': 0.05,'beta_1': 0.9, 'beta_2': 0.999, 'epsilon': 1e-8}
 }
